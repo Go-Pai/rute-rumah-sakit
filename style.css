@@ -1,0 +1,219 @@
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 80px; /* Sesuaikan ukuran logo */
+    margin-right: 15px;
+}
+
+/* Judul */
+.title {
+    text-align: left;
+}
+
+.title h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Navigasi */
+nav {
+    background-color: #7a7a7a;
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.png') no-repeat center center/cover;
+    height: 500px; /* Sesuaikan tinggi background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.hospital-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.hospital-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.hospital {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#map-container {
+    display: flex;
+    flex-direction: row; /* pastikan horizontal */
+    width: 100%;
+    gap: 10px;
+}
+
+#info-table {
+    width: 30%;
+    padding: 15px;
+    background: #f8f8f8;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#hospital-map {
+    flex: 1;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+
+/* Tombol untuk Lokasi (hospital-button) */
+.hospital-button {
+    display: inline-block;
+    background-color: #1d5dbf;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hospital-button:hover {
+    background-color: #144a9a;
+}
+
+/* Tombol di Peta (nav-button) */
+.nav-button {
+    display: inline-block;
+    background-color: #28a745; /* Warna hijau untuk variasi */
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.nav-button:hover {
+    background-color: #218838;
+}
+
+/* Pastikan tombol di dalam <a> terlihat sebagai tombol */
+a.hospital-button, a.nav-button {
+    display: inline-block;
+}
+
+#direction-steps {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color: #333;
+  }
+  
+  #direction-steps li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #direction-steps li::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    background-size: cover;
+  }
+  
+  .direction-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  

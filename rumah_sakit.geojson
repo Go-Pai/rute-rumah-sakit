@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-02-21T04:32:11Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/235994440",
+        "addr:city": "Bengkulu",
+        "addr:full": "Jalan Padang Jati",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit HD Kota Bengkulu",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2668379,
+          -3.7972442
+        ]
+      },
+      "id": "way/235994440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/236028468",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Bhayangkara Tingkat IV",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2551222,
+          -3.792671
+        ]
+      },
+      "id": "way/236028468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/302697215",
+        "addr:city": "Bengkulu",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit DKT",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3096057,
+          -3.8176384
+        ]
+      },
+      "id": "way/302697215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/302699675",
+        "addr:city": "Sidomulyo, Kec. Gading Cemp., Kota Bengkulu, Bengkulu",
+        "addr:postcode": "38211",
+        "addr:street": "Jl. Bhayangkara",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "RSUD Dr. M. Yunus Bengkulu",
+        "phone": "(0736) 52004",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3146146,
+          -3.8351973
+        ]
+      },
+      "id": "way/302699675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/302986503",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Tino Galo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2633521,
+          -3.7576171
+        ]
+      },
+      "id": "way/302986503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784720991",
+        "addr:city": "Bengkulu",
+        "addr:full": "Jalan Padang Jati No.10",
+        "addr:street": "Mahoni",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Rafflesia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2705212,
+          -3.7971518
+        ]
+      },
+      "id": "way/784720991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784722142",
+        "addr:city": "Bengkulu",
+        "addr:full": "Jalan Letjen S Parman No.61, Anggut Bawah, Gading Cempaka, Kota Bengkulu, Bengkulu 38223",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Tiara Sella",
+        "operator:type": "private",
+        "website": "https://rstiarasella.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2714483,
+          -3.800739
+        ]
+      },
+      "id": "way/784722142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10666017906",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Rumah Sakit Tino Galo",
+        "operator": "Pemerintah Kota Bengkulu",
+        "operator:type": "public",
+        "phone": "+62 812-1269-7721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2632883,
+          -3.7576971
+        ]
+      },
+      "id": "node/10666017906"
+    }
+  ]
+}

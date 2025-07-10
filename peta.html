@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peta Rumah Sakit</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Peta Rumah Sakit</h1>
+  </div>
+</header>
+
+<main>
+  <!-- Informasi umum -->
+  <section id="info">
+    <h2>Rumah Sakit: <span id="hospital-name">-</span></h2>
+    <p>Rute: <span id="route">-</span></p>
+    <p id="route-distance">Jarak: -</p>
+    <div id="loading-indicator" style="display: none; color: blue;">Mengambil rute...</div>
+    <a href="#" id="navigate-btn" class="nav-button">Navigasi ke Google Maps</a>
+    <a href="lokasi.html" id="back-btn" class="nav-button">Kembali</a>
+  </section>
+
+  <div id="map-container">
+    <!-- Tabel informasi -->
+    <div id="info-table">
+      <div id="hospital-info">
+        <h3>Informasi Rumah Sakit</h3>
+        <table>
+          <tr><td>Nama</td><td id="rs-name"></td></tr>
+          <tr><td>Kota</td><td id="rs-city"></td></tr>
+          <tr><td>Alamat</td><td id="rs-address"></td></tr>
+          <tr><td>Operator</td><td id="rs-operator"></td></tr>
+          <tr><td>Website</td><td><a id="rs-website" href="#" target="_blank"></a></td></tr>
+          <tr><td>Telepon</td><td id="rs-phone"></td></tr>
+        </table>
+        <a href="#" id="show-route-btn" class="nav-button">Lihat Navigasi Rute</a>
+      </div>
+
+      <!-- Navigasi rute -->
+      <div id="route-info" style="display: none;">
+        <h3>Petunjuk Rute</h3>
+        <div id="directions-list" style="margin-top: 10px;"></div>
+        <a href="#" id="back-to-info-btn" class="nav-button">Kembali ke Informasi</a>
+      </div>
+    </div>
+
+    <!-- Peta -->
+    <div id="hospital-map"></div>
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
